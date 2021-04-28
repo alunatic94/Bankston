@@ -1,0 +1,1084 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    /* overflow: hidden; */
+    background: black;
+}
+section{
+    width:100%;
+    height: 100vh;
+}
+nav{
+    position:fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background:black;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 7px;
+    margin-left:auto;
+    margin-right: auto;
+    width:100%;
+    border:solid white;
+}
+.nav-links{
+    position:absolute;
+    left:auto;
+    right:auto;
+    display: flex;
+    justify-content: space-around;
+    width: 45%;
+    margin-right: 5px;
+}
+.nav-links li{
+    list-style: none;
+    text-align: center;
+    display: inline-block;
+}
+.nav-links a{
+    color:rgb(250, 246, 246);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-links a:hover
+{
+  box-shadow: 0 10px 100px 0 #842bd7 inset, 0 5px 50px 0 #171818,
+              0 5px 50px 0 #171818 inset, 0 5px 50px 0 #ffffff;
+  text-shadow: 0 0 5px #0f0f0f, 0 0 5px #ffffff;
+  color:rgb(21, 36, 23);
+}
+.media-links a:hover
+{
+  text-shadow: 0 0 20px #15f4ee, 0 0 20px #15f4ee;
+}
+.media-links{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    margin-left:5px;
+    position:absolute;
+    left:80%;
+}
+.media-links li{
+    display: inline-block;
+    list-style: none;
+}
+.media-links a{
+    color:rgb(250, 246, 246);
+    text-decoration: none;
+    letter-spacing:3px;
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.nav-links a{
+    color:rgb(250, 246, 246);
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+}
+.main-page-img{
+    background-image: url("nathan-studio.jpg");
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height:100vh;
+    width: 99vw;
+    margin-bottom: 7px;
+    opacity: 0.6;
+}
+.main-page-img img{
+    position:relative;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    object-position: 30% 20%;
+}
+
+.main-page-logo{
+    position: absolute;
+    top:55%;
+    left:10%;
+    letter-spacing: 5px;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    color:#15f4ee;
+    transform: translate(-50%,-50%);
+    transition: 1s;
+}
+.main-page-logo .name a{
+    color:#ffff;
+    transition: transform 5s;
+    text-decoration: none;
+}
+@keyframes slide-up {
+    0% {
+      transform: translateY(300%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes slide-up2 {
+    0% {
+      transform: translateY(80%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  @keyframes slide-down {
+    0% {
+        opacity: 0;
+      transform: translateY(-100%);
+    }
+    33.333% { opacity: 0; transform: translateY(-50%); }
+    66.666% { opacity: 0; transform: translateY(-25%); }
+    100% { opacity: 1;transform: translateY(0);}
+  }
+.button
+{
+  animation: 1s ease-out 0s 1 slide-up;
+  position: relative;
+  left:20%;
+  top:3%;
+  text-align:center;
+  width: 220px;
+  height: 120px;
+  padding: 40px;
+  font-size: 15px;
+  color: #030303;
+  font-family: poppins;
+  font-weight: 700;
+  border: 5px solid #080008;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  cursor: pointer;
+  border-radius: 100px;
+  transition: 1.5s;
+  background: black;
+}
+.button:hover
+{
+  box-shadow: 0 5px 50px 0 #842bd7 inset, 0 5px 50px 0 #ffffff,
+              0 5px 50px 0 #ffffff inset, 0 5px 50px 0 #842bd7;
+  text-shadow: 0 0 5px #842bd7, 0 0 5px #f2f2f2;
+  cursor: pointer;
+}
+.button a{
+    text-decoration: none;
+    color:white;
+}
+section#home{
+    position: relative;
+    background: url("img/IMG_0644.jpg") no-repeat 50% fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact-send-me-a-message{
+    color:white;
+    position: relative;
+    bottom:146%;
+    left:5%;
+    width:30%;
+    text-align: center;
+}
+
+.content-container{
+    width: 100%;
+    height: 100%;
+    /* overflow-y:hidden;
+    scroll-behavior: smooth; */
+}
+section#about{
+    background: black;
+    overflow: hidden;
+    position: relative;
+    padding-top: 40px;
+    height: 40%;
+}
+section#gallery{
+    background: black;
+    position: relative;
+}
+section#contact{
+    background: black;
+    overflow: hidden;
+    position: relative;
+    padding-top: 40px;
+    height: 70%;
+}
+
+.container{
+    position:absolute;
+    top:60%;
+    left:39%;
+    width:540px;
+    box-shadow: 0 15px 35px rgba(50,50,93,.1),0 5px 15px rgba(0, 0, 0, 0.102);
+    padding:2em;
+    animation: fadeIn ease 5s;
+    -webkit-animation: fadeIn ease 5s;
+    text-decoration: none;
+    color:black;
+    /* background:pink; */
+}
+.form-group{
+    margin-bottom:1.5em;
+    transition:all .3s;
+}
+.form-label{
+    font-size:.75em;
+    color:var(--font-color);
+    display:block;
+    opacity:0;
+    transition: all .3s;
+    transform:translateX(-50px);
+}
+.form-control{
+    box-shadow:none;
+    border-radius:0;
+    border-color:#ccc;
+    border-style:none none solid none;
+    width:95%;
+    height:33%;
+    font-size:1.25em;
+    transition:all .6s;
+    padding:15px;
+}
+#name, #email{
+    width:50%;
+    height:13%;
+}
+.form-control::placeholder{
+    color:#aaa;
+}
+.form-control:focus{
+    box-shadow:none;
+    border-color:var(--font-hover-color);
+    outline:none;
+}
+.form-group:focus-within{
+    transform:scale(1.1,1.1);
+}
+
+.form-control:invalid:focus{
+    border-color:red;
+}
+.form-control:valid:focus{
+    border-color:green;
+}
+
+.btn{
+    background: 0 0 #fff;
+    border:1px solid #aaa;
+    border-radius:3px;
+    color:var(--font-color);
+    font-size:1em;
+    padding:10 50px;
+    text-transform:uppercase;
+}
+.btn:hover{
+    border-color:var(--font-hover-color);
+    color:var(--font-hover-color);
+}
+textarea{
+    resize:none;
+}
+
+
+
+.focused > .form-label{
+    opacity:1;
+    transform:translateX(0px);
+
+}
+section#services{
+    background: url("img/IMG_0641.jpg") no-repeat fixed 30% 30%;
+    background-size: 100%;
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 80vh;
+}
+.slider{
+    background:rgba(0, 0, 0, 0.15);
+    position:relative;
+    top:10%;
+    left:5%;
+    margin:auto;
+    height: 90%;
+    width:90%;
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius: 30px;
+}
+#slider-clients{
+    top:15%;
+    padding-top: 12px;
+    padding-left: 100px;
+    padding-right: 2px;
+    width:90%;
+    height: 1400px;
+    border:solid white;
+    /* background:red; */
+}
+.slide-container{
+    /* background:blue; */
+    position: relative;
+    height: 90%;
+    width:32%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    border-radius: 30px;
+    border:solid white;
+}
+.slide{
+    background:green;
+    position: relative;
+    top:100px;
+    height: 60%;
+    width:80%;
+    margin:auto;
+    border-radius: 30px;
+    border:solid white;
+}
+.slide:hover{
+    transition: 1.3s;
+    transform:scale(1.1);
+}
+.slide-img-container{
+    height: 100%;
+    background: url("img/nathan-bridge.jpg") no-repeat fixed 30%;
+    background-size: 100%;
+    border-radius: 30px;
+}
+#producer-service{
+    height: 100%;
+    background: url("img/nathan-studio.jpg") 30%;
+    background-size: 100%;
+    border-radius: 30px;
+}
+
+#mixing-service{
+    height: 100%;
+    background: url("img/studio6.jpg")  30%;
+    background-size: 100%;
+    border-radius: 30px;
+}
+#songwriting-service{
+    height: 100%;
+    background: url("img/nathan-singing.jpg") 30%;
+    background-size: 100%;
+    border-radius: 30px;
+}
+.slide-container-header{
+    position:absolute;
+    top:33px;
+    width:100%;
+    height: 50px;
+    background:rgba(0, 0, 0, 0.15);
+    text-align: center;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.slide-container-description{
+    position:absolute;
+    top:80%;
+    width:100%;
+    height: 120px;
+    background:rgba(0, 0, 0, 0.15);
+    border-radius: 30px;
+    text-align:left;
+    font-size: 22px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section#welcome{
+    background:white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height:100%;
+}
+
+.welcome-content-container{
+    /* background:pink; */
+    position:relative;
+    margin:auto;
+    padding-top: 10px;
+    height: 600px;
+    width:1200px;
+    display: flex;
+    justify-content: center;
+}
+.image-of-nathan{
+    background: url("img/nathan-bridge.jpg")no-repeat 30%;
+    background-size: 100%;
+    position: relative;
+    top:10px;
+    width:550px;
+    height:550px;
+    margin-left: 10px;
+    border:solid black;
+    border-width: 2mm;
+}
+.welcome-content-info{
+    /* background:blue; */
+    position: relative;
+    width:45%;
+    height:95%;
+    margin-right: 10px;
+}
+.welcome-header{
+    font-size: 75px;
+    line-height: 105%;
+    font-weight: bold;
+    margin-bottom: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* background:purple; */
+}
+.paragraph{
+    /* background:green; */
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 27px;
+    padding-right: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+section#about-me-icons{
+    position: relative;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    height: 30vh;
+}
+
+.gallery{
+    width:89%;
+    height: 73%;
+    margin:10px 50px;
+    position: absolute;
+    top:20%;
+    left:3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.gallery img{
+    transition: 1s;
+    margin-left: 10px;
+    margin-right: 10px;
+    width:275px;
+    border:solid #15f4ee;
+    margin-bottom: 5px;
+}
+.gallery img:hover{
+    filter:grayscale(100%);
+    transform:scale(1.1);
+}
+/* .about-container{
+    position: relative;
+    background: purple;
+    height: 80vh;
+    width: 100%;
+    z-index: 99999;
+    border:solid black;
+} */
+.about-container img{
+    transform: scale(1.1);
+    position:absolute;
+    height: 60%;
+    width: 95%;
+    object-fit:cover;
+    object-position:-5px 60%;
+    opacity: 0.4;
+}
+  #contact-about-container img{
+    transform: scale(1.0);
+    position:absolute;
+    height: 70%;
+    width: 100%;
+    object-position:-5px 30%;
+    opacity: 0.4;
+}
+#about-header-about-nathan,#service{
+    position:absolute;
+    top:0;
+    left:0;
+    height:100px;
+    width:800px;
+    /* background: green; */
+    text-align: center;
+}
+#service h2{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 100px;
+    color:white
+}
+#about-header-about-nathan h2{
+    position:absolute;
+    top:30%;
+    left:40%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 100px;
+    color:white;
+}
+.test{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    position: relative;
+    width:100%;
+    height:30vh;
+    overflow: hidden;
+    background:rgba(36, 34, 34, 0.075);
+    /* background: pink; */
+    border:solid white;
+}
+#test-in-main{
+    position: absolute;
+    top:40%;
+}
+#artists{
+    background:green;
+    height: 35vh;
+    width:80%;
+    position: absolute;
+    top:30%;
+    left:10%;
+}
+#test-in-about{
+    position: relative;
+    top:-40%;
+}
+.test2{
+    margin-top: 120px;
+    position: relative;
+    width:100%;
+    height:100vh;
+    overflow: hidden;
+    background:green;
+    background: url("img/nathan-background.jpg") no-repeat fixed 100%;
+    background-size: 100%;
+    /* background: pink; */
+    border:solid white;
+}
+.services-description-container{
+    background:rgba(0, 0, 0, 0.253);
+    position:relative;
+    top:20%;
+    height: 250px;
+    width:80%;
+    margin:auto;
+    color:white;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.more-about-me{
+    background:black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    height: 97vh;
+    /* border:solid #15f4ee; */
+    padding:25px;
+    background: url("img/nathan-bridge.jpg") repeat fixed 100%;
+}
+.about-me-icons-words{
+    animation: 1s ease-out 0s 1 slide-down;
+    position:absolute;
+    left:10%;
+    top:15%;
+    height:75%;
+    width:50%;
+    border:solid cyan;
+    border-width: 2mm;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.more-about-me-img-container{
+    /* background:white; */
+    position: absolute;
+    left:3%;
+    top:20%;
+    height:75%;
+    width:50%;
+    border:solid white;
+    border-width: 2mm;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+section#music{
+    /* background: url("img/IMG_0640.jpg") no-repeat fixed 30% 30%; */
+    background-size: 130%;
+    position: relative;
+    padding-top: 40px;
+    height: 80vh;
+}
+@keyframes fade {
+    0% { opacity: 1 ; z-index: 2; }
+    33.333% { opacity: 0; z-index: 1; }
+    66.666% { opacity: 0; z-index: 1; }
+    100% { opacity: 1; z-index: 2;}
+  }
+.icon-container{
+    /* background: pink; */
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    color:white;
+    width: 100%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* background:rgba(0, 0, 0, 0.075); */
+}
+.icon-container i{
+    font-size: 20px;
+    margin-left: 40%;
+}
+.icon-container h2{
+    text-align: center;
+    font-size: 30px;
+}
+.icon{
+    position: relative;
+    height: 95%;
+    width: 33%;
+    margin-left:5px;
+    margin-right: 5px;
+    border: solid white;
+    transform:scale(.9);
+    transition: transform 2s;
+    background:rgba(0, 0, 0, 0.76);
+}
+
+.icon:hover{
+    transform:scale(1.0);
+    cursor: pointer;
+    /* box-shadow: 0 5px 50px 0 #2f8181 inset, 0 5px 50px 0 #2a8888,
+    0 5px 50px 0 #171818 inset, 0 5px 50px 0 #171818; */
+}
+#producer i{
+    position: relative;
+    font-size: 60px;
+    background:rgba(36, 34, 34, 0.075);
+    margin-left: 290px;
+    margin-top: 30px;
+}
+#mixing i{
+    position: relative;
+    font-size: 60px;
+    background:rgba(36, 34, 34, 0.075);
+    margin-left: 290px;
+    margin-top: 30px;
+}
+#songwriter i{
+    position: relative;
+    font-size: 60px;
+    background:rgba(36, 34, 34, 0.075);
+    margin-left: 290px;
+    margin-top: 30px;
+}
+.icon:hover .fa.fa-volume-up,.icon:hover .fa.fa-sliders.fa-lg,.icon:hover .fa.fa-play{
+    animation: 1s ease-out 0s 1 slide-up2;
+}
+.icon-info{
+    /* background:rgba(21, 244, 237, 0.15); */
+    height:120px;
+    padding-top: 3px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 17px;
+}
+.icon-info{
+    transform: scaleY(0);
+    transition: transform .5s;
+}
+.icon:hover .icon-info{
+    transform: scaleY(1);
+}
+.test2-content-container{
+    width:100%;
+    height: 100%;
+    position:absolute;
+    top:0%;
+    left:0%;
+    background:rgba(0, 0, 0, 0.507);
+    color:white;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.test2-content-header{
+    animation: 1s ease-out 0s 1 slide-down;
+    position:absolute;
+    left:30%;
+    top:10%;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+.test2-content-content{
+    position:absolute;
+    top:27%;
+    left:23%;
+    height: 65%;
+    width:60%;
+    background: rgba(128, 128, 128, 0.15);
+}
+
+.artist{
+    background:pink;
+    width: 340px; /* Can be in percentage also. */
+    height: 350px;
+    padding:10px;
+    margin: 7px;
+    position: relative;
+    border:solid black;
+    border-radius: 30px;
+}
+.artist-image-container{
+    height: 75%;
+    border:solid white;
+}
+#azelia{
+    background: url("img/azelia.jpg") no-repeat 50% 25%;
+    border:solid white;
+}
+#abi{
+    background: url("img/abi.jpg") no-repeat 50% 25%;
+    border:solid white;
+}
+#ridg{
+    background: url("img/ridg.jpg") no-repeat 50% 50%;
+    border:solid white;
+}
+#Phantom-Professional{
+    background: url("img/nathan-background.jpg") no-repeat 60% 25%;
+    object-fit: scale-down;
+    border:solid white;
+}
+#Nicole-Winters{
+    background: url("img/nicole.jpg") no-repeat 50% 25%;
+    border:solid white;
+}
+#Kevin-Parker{
+    background: url("img/studio2.jpg") no-repeat 50% 50%;
+    border:solid white;
+}
+#Keltie{
+    background: url("img/kellie.jpeg") no-repeat 30% 30%;
+    border:solid white;
+}
+.artist-song{
+    position: absolute;
+    top:77%;
+    left: 3%;
+    height:75px;
+    width:400px;
+}
+.artist:hover{
+    transition: 1.3s;
+    transform:scale(1.09);
+}
+
+.artist img{
+    display: block;
+    object-fit:cover;
+    object-position: 30% 30%;
+    height: 75%;
+    width: 75%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border:solid white;
+}
+.artist h2{
+    text-align: center;
+    font-size: 16px;
+}
+.music-header{
+    position:relative;
+    bottom: 40%;
+    left:5%;
+    font-family: 'Abel', sans-serif;
+    height: 10%;
+    width: 25%;
+    color:white;
+    font-size: 2.4rem;
+    font-weight: 400;
+    text-align: center;
+}
+.artist .iframe{
+    display: block;
+    position: relative;
+    top:0;
+}
+.about-me-info{
+    position:absolute;
+    color:black;
+    /* background:pink; */
+    height: 40%;
+    width:60%;
+    left:35%;
+    top:10%;
+    padding: 12px;
+    font-family: 'Abel', sans-serif;
+}
+.about-me-info h2{
+    text-align: center;
+    font-size: 32px;
+}
+.about-me-info p{
+    text-align: left;
+    font-size: 16px;
+}
+@keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);;
+    }
+  }
+.about-me-info-2{
+    animation: 1s ease-out 0s 1 slideInFromLeft;
+    position:absolute;
+    color:white;
+    background:rgba(0, 0, 0, 0.027);
+    height: 47%;
+    width:30%;
+    left:50%;
+    top:29%;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-me-info-2 h2{
+    font-size: 62px;
+    color:white;
+    font-family: fantasy;
+    border-bottom: solid white;
+}
+.about-me-info-2 p{
+    text-align: left;
+    font-size: 21px;
+    color:white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#service{
+    position:relative;
+    height:150px;
+    width:750px;
+    /* background: green; */
+    text-align: center;
+}
+#gallery-header{
+    position:absolute;
+    left:41%;
+    bottom: 81%;
+    font-family: fantasy;
+}
+#about-me{
+    position:absolute;
+    bottom: 1%;
+    font-family: fantasy;
+    left:45%;
+}
+.service-content{
+    background-color:black;
+    height: 100vh;
+    /* border:solid #15f4ee; */
+    padding:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-content{
+
+    background:black;
+    height: 100vh;
+    /* border:solid #15f4ee; */
+    padding:25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-info{
+    padding-left: 17px;
+    position:absolute;
+    left:7%;
+    height: 20%;
+    width: 33%;
+    background:whitesmoke;
+    font-family: 'Abel', sans-serif;
+}
+/* .home-header-container{
+    position: absolute;
+    top:25%;
+    left:33%;
+    height:300px;
+    width:700px;
+    background:pink;
+    color:white;
+} */
+#about-header-container{
+    position: absolute;
+    top:70px;
+    left:30px;
+    height:300px;
+    width:800px;
+    /* background:orange; */
+    color:white;
+}
+.home-header-nathan-bankston{
+    position: relative;
+    top:24%;
+    /* background:rgba(0, 0, 255, 0.171); */
+    text-align: center;
+    font-size: 82px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    animation: fadeIn ease 5s;
+   -webkit-animation: fadeIn ease 5s;
+   text-shadow: 2px 2px #842bd7;
+}
+.home-header-producer-engineer{
+    position: relative;
+    top:25%;
+    /* background:green; */
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    animation: fadeIn ease 5s;
+   -webkit-animation: fadeIn ease 5s;
+}
+section#contact-page{
+    background: black;
+    position: relative;
+    height: 70%;
+}
+#contact-page-header{
+    position: relative;
+    left:35%;
+    top:55%;
+    width:600px;
+    height:100px;
+    text-align: center;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-page-info{
+    position: absolute;
+    top:55%;
+    left:50%;
+    background:green;
+    height: 340px;
+    width:850px;
+}
+.contact-page-info h1{
+    font-size: 52px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+}
+.container-contact-form
+{
+  position: relative;
+  top: 5%;
+  left:-10%;
+  height: 400px;
+  width:700px;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  /* background: purple; */
+ padding-left: 20px;
+}
+.contact-page-send-me-message{
+    text-align: center;
+    background: pink;
+    height: 30%;
+    width:100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.contact-page-send-me-message-description{
+    background:red;
+    height: 65%;
+    padding:12px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.about-body{
+    height: 2500px;
+    display: flex;
+    background:blue;
+}
+.container-testing{
+    position: relative;
+    top:30%;
+    left:25%;
+    height:700px;
+    width:1000px;
+    background:pink;
+    display:flex;
+}
+#expand {
+    background: tomato;
+    min-height: 400px;
+    min-width: 20%;
+    position: relative;
+    margin:auto;
+    
+  }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+

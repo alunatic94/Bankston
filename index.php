@@ -107,8 +107,8 @@ $message_sent=false;
             </div>
         </section>
 
-        <section id="services" data-aos="fade-left">
-            <div class="test2-content-container">
+        <section id="services">
+            <div class="test2-content-container" data-aos="fade-left">
                 <div class="home-header-nathan-bankston" id="about-header-about-nathan">
                     <h2>SERVICES</h2>
                 </div>

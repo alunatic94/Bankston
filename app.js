@@ -28,10 +28,9 @@
 // }
 
 var expandDiv = document.getElementById("expand");
-var speed = 3;
+var speed = 6;
 
 function expanding() {
-  console.log("HELLOOOOO");
   var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically
   var scrollAndSpeed = (scrolltop / speed);
   //Expand using transform

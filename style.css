@@ -313,6 +313,7 @@ section#services{
     margin-bottom: 40px;
     margin-top: 40px;
     height: 80vh;
+    overflow-x: hidden;
 }
 .slider{
     background:rgba(0, 0, 0, 0.15);

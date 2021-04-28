@@ -80,7 +80,7 @@ $message_sent=false;
                     <div class="landing-page-content-container-header">
                         <h2>Book Your Session!</h2>
                         <br>
-                        <h1>Lets make something dope together!</h1>
+                        <h1>Lets create something together!</h1>
                     </div>
                 </div>
             </div>

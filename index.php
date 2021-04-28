@@ -70,11 +70,18 @@ $message_sent=false;
                 <!-- <div class="container">
                     <div class="button"><a href="contact.html">BØØK SESSIØN</a></div>
                 </div> -->
-                <div class="home-header-nathan-bankston">
+                <!-- <div class="home-header-nathan-bankston">
                     <h2>Nathan Bankston</h2>
                 </div>
                 <div class="home-header-producer-engineer">
                     <h1>Producer/Audio Engineer</h1>
+                </div> -->
+                <div class="landing-page-content-container">
+                    <div class="landing-page-content-container-header">
+                        <h2>Book Your Session!</h2>
+                        <br>
+                        <h1>Lets make something dope together!</h1>
+                    </div>
                 </div>
             </div>
         </section>

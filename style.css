@@ -663,7 +663,7 @@ section#about-me-icons{
 }
 
 section#music{
-    /* background: url("img/IMG_0640.jpg") no-repeat fixed 30% 30%; */
+    background:red;
     background-size: 130%;
     position: relative;
     padding-top: 40px;

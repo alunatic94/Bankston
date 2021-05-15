@@ -441,7 +441,6 @@ section#welcome{
     position: relative;
     display: flex;
     justify-content: center;
-    padding-top: 40px;
     margin-bottom: 40px;
     margin-top: 40px;
     height:100%;
@@ -451,7 +450,7 @@ section#welcome{
     /* background:pink; */
     position:relative;
     margin:auto;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     height: 600px;
     width:1200px;
     display: flex;
@@ -471,7 +470,7 @@ section#welcome{
 .welcome-content-info{
     /* background:blue; */
     position: relative;
-    width:45%;
+    width:47%;
     height:95%;
     margin-right: 10px;
 }
@@ -1068,22 +1067,35 @@ section#contact-page{
     background:blue;
 }
 .container-testing{
-    position: relative;
-    top:30%;
-    left:25%;
+    position:relative;
+    margin: auto;
     height:700px;
     width:1000px;
-    background:pink;
+    /* background:pink; */
     display:flex;
-}
+}  
 #expand {
-    background: tomato;
+    /* background: tomato; */
     min-height: 400px;
     min-width: 20%;
     position: relative;
-    margin:auto;
+    overflow: hidden;
     
   }
+.welcome-testing{
+    position:absolute;
+    background:#e3e3e4;
+    display:flex;
+}
+#welcome-expand {
+    /* background: tomato; */
+    min-height:65%;
+    min-width: 65%;
+    position: relative;
+    overflow: hidden;
+    
+  }
+
 @keyframes fadeIn {
     0% {opacity:0;}
     100% {opacity:1;}

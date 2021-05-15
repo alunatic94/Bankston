@@ -86,8 +86,8 @@ $message_sent=false;
             </div>
         </section>
 
-        <section id="welcome">
-            <div class="welcome-content-container" >
+        <section id="welcome" id="expand">
+            <div class="welcome-content-container">
                 <div class="welcome-content-info">
                     <h2 class="Welcome-header"><strong>Welcome</strong></h2>
                     <p class="paragraph">
@@ -132,7 +132,6 @@ $message_sent=false;
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="producer-service">
-                                <p>hey</p>
                             </div>
                         </div>
                     </div>
@@ -148,7 +147,6 @@ $message_sent=false;
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="mixing-service">
-                                <p>hey</p>
                             </div>
                         </div>
                     </div>
@@ -164,7 +162,6 @@ $message_sent=false;
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="songwriting-service">
-                                <p>hey</p>
                             </div>
                         </div>
                     </div>
@@ -356,5 +353,6 @@ $message_sent=false;
             duration:1000
         });
     </script>
+    <script rel="text/javascript" src="app.js"></script>
 </body>
 </html>

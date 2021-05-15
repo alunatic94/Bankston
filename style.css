@@ -437,7 +437,7 @@ section#services{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 section#welcome{
-    background:white;
+    background:green;
     position: relative;
     display: flex;
     justify-content: center;

@@ -86,39 +86,39 @@ $message_sent=false;
             </div>
         </section>
 
-        <section id="welcome" id="expand">
-            <div class="welcome-content-container">
-                <div class="welcome-content-info">
-                    <h2 class="Welcome-header"><strong>Welcome</strong></h2>
-                    <p class="paragraph">
-                        Hush Money Music serves artists and producers looking for a creative space to 
-                        connect and create music.
-                    </p>
-                    <p class="paragraph">
-                        Located in the heart of Los Angeles, we offer comfortable workspaces paired with modern studio designs. 
-                        Our studios are equipped with professional gear, acoustically treated walls and vocal booths, 
-                        and customizable lighting to create an atmosphere that inspires your creative energy.
-                    </p>
-                    <p class="paragraph">
-                        Our talented team of professionals and engineers strive for the highest quality of 
-                        service – ensuring that your 
-                        time with us is productive and focused on your goals the moment you walk through the doors
-                    </p>
-                </div>
-                <div class="image-of-nathan">
-                    <div class="about-me-icons-words">
+        <section id="welcome">
+            <div class="welcome-testing" id="welcome-expand">
+                <div class="welcome-content-container">
+                    <div class="welcome-content-info">
+                        <h2 class="Welcome-header"><strong>Welcome</strong></h2>
+                        <p class="paragraph">
+                            Hush Money Music serves artists and producers looking for a creative space to 
+                            connect and create music.
+                        </p>
+                        <p class="paragraph">
+                            Located in the heart of Los Angeles, we offer comfortable workspaces paired with modern studio designs. 
+                            Our studios are equipped with professional gear, acoustically treated walls and vocal booths, 
+                            and customizable lighting to create an atmosphere that inspires your creative energy.
+                        </p>
+                        <p class="paragraph">
+                            Our talented team of professionals and engineers strive for the highest quality of 
+                            service – ensuring that your 
+                            time with us is productive and focused on your goals the moment you walk through the doors
+                        </p>
                     </div>
-                    <div class="more-about-me-img-container">
+                    <div class="image-of-nathan">
+                        <div class="about-me-icons-words">
+                        </div>
+                        <div class="more-about-me-img-container">
+                        </div>
                     </div>
                 </div>
             </div>
+
         </section>
 
         <section id="services">
             <div class="test2-content-container" data-aos="fade-left">
-                <div class="home-header-nathan-bankston" id="about-header-about-nathan">
-                    <h2>SERVICES</h2>
-                </div>
                 <div class="slider">
                     <div class="slide-container">
                         <div class="slide-container-header">

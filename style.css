@@ -334,15 +334,15 @@ section#services{
     background: url("img/IMG_0641.jpg") no-repeat fixed 30% 30%;
     background-size: 100%;
     position: relative;
-    height: 100vh;
+    height: 120vh;
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 .slider{
-    background:blue;
     position:relative;
-
+    top:200px;
     margin:auto;
-    height: 90%;
+    height: 800px;
     width:100%;
     display:inline-flex;
     flex-wrap: wrap;
@@ -357,10 +357,8 @@ section#services{
     width:90%;
     height: 1400px;
     border:solid white;
-    /* background:red; */
 }
 .slide-container{
-    background:blue;
     position: relative;
     height: 90%;
     width:32%;
@@ -368,10 +366,10 @@ section#services{
     margin-right: auto;
     margin-top: 12px;
     border-radius: 30px;
-    border:solid white;
+    /* border:solid white; */
+    background:rgba(0, 0, 0, 0.102);
 }
 .slide{
-    background:green;
     position: relative;
     top:100px;
     height: 60%;
@@ -414,7 +412,6 @@ section#services{
     top:33px;
     width:100%;
     height: 50px;
-    background:blue;
     text-align: center;
     font-size: 22px;
     letter-spacing: 2px;
@@ -426,7 +423,6 @@ section#services{
     top:80%;
     width:100%;
     height: 120px;
-    background:rgb(0, 0, 0);
     border-radius: 30px;
     text-align:left;
     font-size: 22px;
@@ -434,7 +430,7 @@ section#services{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 section#welcome{
-    background:green;
+    background: white;
     position: relative;
     display: flex;
     justify-content: center;
@@ -602,7 +598,6 @@ section#about-me-icons{
     width:100%;
     height:100vh;
     overflow: hidden;
-    background:green;
     background: url("img/nathan-background.jpg") no-repeat fixed 100%;
     background-size: 100%;
     /* background: pink; */
@@ -660,7 +655,6 @@ section#about-me-icons{
 }
 
 section#music{
-    background:red;
     background-size: 130%;
     position: relative;
     padding-top: 40px;
@@ -763,6 +757,7 @@ section#music{
     justify-content: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
 .test2-content-header{
     animation: 1s ease-out 0s 1 slide-down;
     position:absolute;
@@ -983,10 +978,11 @@ section#music{
     /* background:orange; */
     color:white;
 }
-.home-header-nathan-bankston{
+.header-nathan-bankston{
     position:absolute;
-    top:0;
+    top:60px;
     left:0;
+    /* background: pink; */
     font-size: 82px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     margin-bottom: 10px;

@@ -29,7 +29,7 @@ $message_sent=false;
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link href="style.css?<?=filemtime("style.css")?>" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" type="text/css" href="lightbox.min.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script rel="text/javascript" src="lightbox-plus-jquery.min.js"></script>
@@ -118,11 +118,11 @@ $message_sent=false;
         </section>
 
         <section id="services">
-            <div class="test2-content-container" data-aos="fade-left">
-                <div class="home-header-nathan-bankston" id="about-header-about-nathan">
-                    <h2>SERVICES</h2>
+            <div class="test2-content-container" >
+                <div class="header-nathan-bankston">
+                    <h1>Services</h1>
                 </div>
-                <div class="slider">
+                <div class="slider" data-aos="fade-left">
                     <div class="slide-container">
                         <div class="slide-container-header">
                             <h1>Producer</h1>
@@ -135,7 +135,6 @@ $message_sent=false;
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="producer-service">
-                                <p>hey</p>
                             </div>
                         </div>
                     </div>
@@ -151,7 +150,6 @@ $message_sent=false;
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="mixing-service">
-                                <p>hey</p>
                             </div>
                         </div>
                     </div>
@@ -167,106 +165,15 @@ $message_sent=false;
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="songwriting-service">
-                                <p>hey</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- <div class="services-description-container">
-                    <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, architecto placeat? 
-                        Magni officia dolores fuga eius impedit explicabo, quasi adipisci, ratione nulla, nesciunt dolor id ut. 
-                        Nemo, eveniet? Enim, repellat? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, 
-                        architecto placeat? 
-                        Magni officia dolores fuga eius impedit explicabo, quasi adipisci, ratione nulla, nesciunt dolor id ut. 
-                        Nemo, eveniet? Enim, repellat?
-
-                    </h2>
-                </div> -->
-                <!-- <div class="test2-content-content" id="content-container-services">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugit culpa enim aliquam fugiat saepe excepturi voluptas, corrupti nemo dolor porro, iste consequuntur omnis magni eos odit. Nisi, numquam nam!
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet dolor quia exercitationem, perspiciatis voluptas, quis aliquid incidunt tempore sed pariatur temporibus! Cupiditate eveniet libero ab voluptates obcaecati itaque aliquam quo?
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sed quo consequuntur, officia iste consequatur ab voluptatem neque velit error. Unde nisi odit iste eveniet rerum quae sint nobis reiciendis?
-                    </p>
-                </div> -->
-
-                <!-- <div class="test" id="test-in-main">
-                    <div class="icon-container">
-                        <div class="icon" id="producer">
-                            <i class="fa fa-volume-up"></i>
-                            <h2>Producer</h2>
-                            <div class="icon-info" id="producer-info">
-                                <h2>LA Recording School</h2>
-                                <p>I graduated from LA Recording School in 2017
-                                with honors. Its here where I began my journey
-                                to becoming a music producer.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="icon" id="mixing">
-                            <i class="fa fa-sliders fa-lg"></i>
-                            <h2>Mixing</h2>
-                            <div class="icon-info" id="mixing-info">
-                                <p>I graduated from LA Recording School in 2017
-                                    with honors. Its here where I began my journey
-                                    to becoming a music producer.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="icon" id="songwriter">
-                            <i class="fa fa-play"></i>
-                            <h2>Songwriter</h2>
-                            <div class="icon-info" id="songwriter-info">
-                                <h2>LA Recording School</h2>
-                                <p>I graduated from LA Recording School in 2017
-                                with honors. Its here where I began my journey
-                                to becoming a music producer.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div> -->
-
             </div>
         </section>
 
         <section id="music">
-            <div class="test2-content-container">
-                <!-- <div class="artist-container">
-                    <div class="artist" id="azelia">
-                        <img src="img/azelia.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/4kl1UmmOKbfu1sCyxRwRnD" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="abi">
-                        <img src="img/abi.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="tamara">
-                        <img src="img/tamara.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/1JQ7fuCW9LEFHBnFNDHkBx" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div> 
-                    <div class="artist" id="ridg">
-                        <img src="img/ridg.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/0KMKCEq6iSJANVQbuYWwrq" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div> 
-                    <div class="artist" id="ridg">
-                        <img src="img/ridg.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/0KMKCEq6iSJANVQbuYWwrq" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="ridg">
-                        <img src="img/ridg.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/0KMKCEq6iSJANVQbuYWwrq" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="nicole">
-                        <img src="img/nicole.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/0KMKCEq6iSJANVQbuYWwrq" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="ridg">
-                        <img src="img/ridg.jpg" alt="">
-                        <iframe src="https://open.spotify.com/embed/track/0KMKCEq6iSJANVQbuYWwrq" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                </div> -->
                 <div class="home-header-nathan-bankston" id="about-header-about-nathan">
-                    <h2>CLIENTS</h2>
                 </div>
                 <div class="slider" id="slider-clients">
                     <div class="artist" id="abi">
@@ -318,7 +225,6 @@ $message_sent=false;
                         <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM"  width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
                 </div>
-            </div>
 
         </section>
 
@@ -359,6 +265,6 @@ $message_sent=false;
             duration:1000
         });
     </script>
-    <script type="text/javascript" src="app.js"></script>
+    <script rel="text/javascript" src="app.js"></script>
 </body>
 </html>

@@ -351,6 +351,7 @@ section#services{
     border-radius: 30px;
     background:rgba(0, 0, 0, 0.102);
 }
+
 #slider-clients{
     top:15%;
     padding-top: 12px;
@@ -1136,4 +1137,94 @@ section#contact-page{
     0% {opacity:0;}
     100% {opacity:1;}
     }
+@media only screen and (max-width:812px){
 
+    section#services{
+        background: url("img/IMG_0641.jpg") no-repeat fixed 30% 30%;
+        background-size: 100%;
+        position: relative;
+        height: 200vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .header-nathan-bankston{
+        color:white;
+        position:absolute;
+        top:60px;
+        left:0;
+        width:75%;
+        letter-spacing: 0.3in;
+        background:rgba(0, 0, 0, 0.102);
+        font-size: 30px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-bottom: 10px;
+        animation: fadeIn ease 5s;
+       -webkit-animation: fadeIn ease 5s;
+       text-shadow: 2px 2px #842bd7;
+    }
+
+    .slider{
+        position:relative;
+        top:100px;
+        margin:auto;
+        height: 800px;
+        width:100%;
+        display:block;
+        flex-wrap: wrap;
+        align-content: flex-start;
+        background:rgba(0, 0, 0, 0.102);
+    }
+
+
+    .slide-container{
+        position: relative;
+        height: 60%;
+        width:100%;
+        margin-bottom: 5px;
+        border-radius: 30px;
+        border:solid white;
+    }
+    .slide{
+        position: relative;
+        top:25px;
+        height:70%;
+        width:80%;
+        margin:auto;
+        border-radius: 30px;
+        /* border:solid green; */
+    }
+
+    .slide-container-header{
+        position:absolute;
+        top:0;
+        /* background:pink; */
+        width:100%;
+        height: 20px;
+        text-align: center;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .slide-img-container{
+        height: 0%;
+        background: url("img/nathan-bridge.jpg") no-repeat fixed 30%;
+        background-size: 0%;
+        border-radius: 30px;
+    }
+
+    .slide-container-description{
+        /* background:pink; */
+        position:absolute;
+        top:75%;
+        width:100%;
+        height: 120px;
+        border-radius: 30px;
+        text-align:left;
+        font-size: 14px;
+        line-height: 1.6;
+        letter-spacing: 1px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+
+}

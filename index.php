@@ -119,10 +119,8 @@ $message_sent=false;
                             <h1>Producer</h1>
                         </div>
                         <div class="slide-container-description">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
-                                libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
-                            </p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
+                            libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="producer-service">
@@ -134,10 +132,8 @@ $message_sent=false;
                             <h1>Mixing</h1>
                         </div>
                         <div class="slide-container-description">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
-                                libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
-                            </p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
+                            libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="mixing-service">
@@ -149,10 +145,8 @@ $message_sent=false;
                             <h1>SongWriting</h1>
                         </div>
                         <div class="slide-container-description">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
-                                libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
-                            </p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
+                            libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="songwriting-service">

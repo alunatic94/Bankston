@@ -27,39 +27,39 @@
 //   dots[slideIndex-1].className += " active";
 // }
 
-var expandDiv = document.getElementById("expand");
+// var expandDiv = document.getElementById("expand");
 var expandDiv2 = document.getElementById("welcome-expand");
 var speed = 7;
 
-function expanding() {
-  var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically
-  var scrollAndSpeed = (scrolltop / speed);
-  console.log("HEEEEY");
-  //Expand using transform
-  //expandDiv.style.transform = "scalex( " + Math.min(Math.max(scrollAndSpeed, 1), 10) + ")";
+// function expanding() {
+//   var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically
+//   var scrollAndSpeed = (scrolltop / speed);
+//   console.log("HEEEEY");
+//   //Expand using transform
+//   //expandDiv.style.transform = "scalex( " + Math.min(Math.max(scrollAndSpeed, 1), 10) + ")";
   
-  //Or using width
-  expandDiv.style.width = Math.min(Math.max(scrollAndSpeed, 20), 95) + "%";
+//   //Or using width
+//   expandDiv.style.width = Math.min(Math.max(scrollAndSpeed, 20), 95) + "%";
 
-}
+// }
 
-function expanding2() {
-  var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically
-  var scrollAndSpeed = (scrolltop / speed);
-  console.log("HEEEEY");
-  //Expand using transform
-  //expandDiv.style.transform = "scalex( " + Math.min(Math.max(scrollAndSpeed, 1), 10) + ")";
+// function expanding2() {
+//   var scrolltop = window.pageYOffset; // get number of pixels document has scrolled vertically
+//   var scrollAndSpeed = (scrolltop / speed);
+//   console.log("HEEEEY");
+//   //Expand using transform
+//   //expandDiv.style.transform = "scalex( " + Math.min(Math.max(scrollAndSpeed, 1), 10) + ")";
   
-  //Or using width
-  expandDiv2.style.width = Math.min(Math.max(scrollAndSpeed, 20), 100) + "%";
-  expandDiv2.style.height = Math.min(Math.max(scrollAndSpeed, 20), 100) + "%";
+//   //Or using width
+//   expandDiv2.style.width = Math.min(Math.max(scrollAndSpeed, 20), 100) + "%";
+//   expandDiv2.style.height = Math.min(Math.max(scrollAndSpeed, 20), 100) + "%";
 
-}
+// }
 
-window.addEventListener('scroll', function() { // on page scroll
-  requestAnimationFrame(expanding); // call parallaxing()
-}, false);
+// window.addEventListener('scroll', function() { // on page scroll
+//   requestAnimationFrame(expanding); // call parallaxing()
+// }, false);
 
-window.addEventListener('scroll', function() { // on page scroll
-  requestAnimationFrame(expanding2); // call parallaxing()
-}, false);
+// window.addEventListener('scroll', function() { // on page scroll
+//   requestAnimationFrame(expanding2); // call parallaxing()
+// }, false);

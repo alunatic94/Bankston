@@ -27,6 +27,7 @@ nav{
     width:100%;
     border:solid white;
 }
+
 .nav-links{
     position:absolute;
     left:auto;
@@ -148,39 +149,7 @@ nav{
     66.666% { opacity: 0; transform: translateY(-25%); }
     100% { opacity: 1;transform: translateY(0);}
   }
-.button
-{
-  animation: 1s ease-out 0s 1 slide-up;
-  position: relative;
-  left:20%;
-  top:3%;
-  text-align:center;
-  width: 220px;
-  height: 120px;
-  padding: 40px;
-  font-size: 15px;
-  color: #030303;
-  font-family: poppins;
-  font-weight: 700;
-  border: 5px solid #080008;
-  text-transform: uppercase;
-  letter-spacing: 15px;
-  cursor: pointer;
-  border-radius: 100px;
-  transition: 1.5s;
-  background: black;
-}
-.button:hover
-{
-  box-shadow: 0 5px 50px 0 #842bd7 inset, 0 5px 50px 0 #ffffff,
-              0 5px 50px 0 #ffffff inset, 0 5px 50px 0 #842bd7;
-  text-shadow: 0 0 5px #842bd7, 0 0 5px #f2f2f2;
-  cursor: pointer;
-}
-.button a{
-    text-decoration: none;
-    color:white;
-}
+
 section#home{
     position: relative;
     background: url("img/studio7.jpg") no-repeat fixed 50% 100%;
@@ -1138,6 +1107,27 @@ section#contact-page{
     100% {opacity:1;}
     }
 @media only screen and (max-width:812px){
+    section#welcome{
+        background: white;
+        position: relative;
+        display:block;
+        justify-content: center;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        height:150vh;
+        width:100%;
+        overflow-x: hidden;
+    }
+    section#home{
+        position: relative;
+        background: url("img/studio.jpg") no-repeat fixed 30% 30%;
+        background-size:100%;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
 
     section#services{
         background: url("img/IMG_0641.jpg") no-repeat fixed 30% 30%;
@@ -1147,6 +1137,8 @@ section#contact-page{
         overflow-x: hidden;
         overflow-y: hidden;
     }
+
+
     .header-nathan-bankston{
         color:white;
         position:absolute;
@@ -1182,7 +1174,7 @@ section#contact-page{
         width:100%;
         margin-bottom: 5px;
         border-radius: 30px;
-        border:solid white;
+        /* border:solid white; */
     }
     .slide{
         position: relative;
@@ -1226,5 +1218,123 @@ section#contact-page{
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
 
+    .landing-page-content-container-header{
+        background:rgba(128, 0, 128, 0.15);
+        padding-left: 20px;
+        padding-top: 30px;
+        height: 80%;
+        font-family:Arial, Helvetica, sans-serif;
+        color:white;
+        border-radius: 30%;
+    }
+    .landing-page-content-container-header h1{
+        font-size: 11px;
+    }
+    .landing-page-content-container-header h2{
+        font-size: 20px;
+        font-weight:600;
+        letter-spacing: 1px;
+    }
 
+    .paragraph{
+        /* background:green; */
+        word-wrap:normal;
+        font-size: 17px;
+        line-height: 1.9;
+        margin-bottom: 27px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    .welcome-testing{
+        position:absolute;
+        background:#e3e3e4;
+        
+    }
+
+    .welcome-content-container{
+        /* background:pink; */
+        margin-top: 0;
+        position:relative;
+        height: 600px;
+        width:1200px;
+        display: block;
+        justify-content: center;
+    }
+    .welcome-content-info{
+        /* background:blue; */
+        position: relative;
+        width:100%;
+        height:100%;
+        margin-right: 10px;
+    }
+
+    .image-of-nathan{
+        background: url("img/nathan-bridge.jpg")no-repeat 10% 60%;
+        background-size: cover;
+        position: relative;
+        margin: auto;
+        margin-top: 20px;
+        width:100%;
+        height:500px;
+        border:none;
+    }
+    .about-me-icons-words{
+        animation:none;
+        position:absolute;
+        left:230px;
+        top:70px;
+        height:50px;
+        width:50px;
+        border:solid cyan;
+        border-width: 2mm;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .more-about-me-img-container{
+        /* background:white; */
+        position: absolute;
+        left:195px;
+        top:100px;
+        height:50px;
+        width:50px;
+        border:solid white;
+        border-width: 2mm;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .btn{
+        width: 100%;
+    }
+    .nav-links{
+        display: none;
+    }
+    .media-links{
+        display: none;
+    }
+    .main-page-logo{
+        position: relative;
+        top:28px;
+        left:50px;
+        font-family: 'Abel', sans-serif;
+        font-size: 15px;
+    }
+    .main-page-logo .name a{
+        color:#ffff;
+        text-decoration: none;
+    }
+    .hamburger{
+        position: relative;
+        top:12px;
+        left:37px;
+        width:40px;
+        background: transparent;
+        border:0;
+        color:white;
+        font-size: 30px;
+        cursor: pointer;
+    }
+    .hamburger:focus{
+        outline: none;
+    }
 }

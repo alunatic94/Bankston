@@ -48,6 +48,9 @@ $message_sent=false;
             <div class="main-page-logo">
                 <h1 class="name"><a href="#home">BANKSTØN</a></h1>
             </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fa fa-bars"></i>
+            </button>
             <ul class="nav-links">
                 <li><a href="about.html">ABØUT</a></li>
                 <li><a href="gallery.html">GALLERY</a></li>

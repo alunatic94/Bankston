@@ -12,6 +12,9 @@ section{
     width:100%;
     height: 100vh;
 }
+.hamburger{
+    display: none;
+}
 nav{
     position:fixed;
     z-index: 99;
@@ -55,6 +58,9 @@ nav{
               0 5px 50px 0 #171818 inset, 0 5px 50px 0 #ffffff;
   text-shadow: 0 0 5px #0f0f0f, 0 0 5px #ffffff;
   color:rgb(21, 36, 23);
+}
+#nav-links-mobile{
+    display: none;
 }
 .media-links a:hover
 {
@@ -1179,11 +1185,12 @@ section#contact-page{
     .slide{
         position: relative;
         top:25px;
-        height:70%;
-        width:80%;
+        height:50%;
+        width:60%;
         margin:auto;
         border-radius: 30px;
-        /* border:solid green; */
+        /* border:solid green;
+        background: green; */
     }
 
     .slide-container-header{
@@ -1191,7 +1198,7 @@ section#contact-page{
         top:0;
         /* background:pink; */
         width:100%;
-        height: 20px;
+        height: 50px;
         text-align: center;
         font-size: 12px;
         letter-spacing: 2px;
@@ -1207,12 +1214,13 @@ section#contact-page{
     .slide-container-description{
         /* background:pink; */
         position:absolute;
-        top:75%;
+        justify-content: center;
+        padding-left: 5px;
+        top:60%;
         width:100%;
-        height: 120px;
-        border-radius: 30px;
+        height: 135px;
         text-align:left;
-        font-size: 14px;
+        font-size: 18px;
         line-height: 1.6;
         letter-spacing: 1px;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -1333,6 +1341,7 @@ section#contact-page{
         color:white;
         font-size: 30px;
         cursor: pointer;
+        display: -webkit-flex;
     }
     .hamburger:focus{
         outline: none;

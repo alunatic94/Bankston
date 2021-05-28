@@ -52,7 +52,14 @@ $message_sent=false;
                 <i class="fa fa-bars"></i>
             </button>
             <ul class="nav-links">
-                <li><a href="about.html">ABØUT</a></li>
+                <!-- <li><a href="about.html">ABØUT</a></li> -->
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#music">MUSIC</a></li>
+                <li><a href="contact.html">CØNTACT</a></li>
+            </ul>
+            <ul class="nav-links" id="nav-links-mobile">
+                <!-- <li><a href="about.html">ABØUT</a></li> -->
                 <li><a href="gallery.html">GALLERY</a></li>
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#music">MUSIC</a></li>

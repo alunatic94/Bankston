@@ -48,8 +48,18 @@ $message_sent=false;
             <div class="main-page-logo">
                 <h1 class="name"><a href="#home">BANKSTØN</a></h1>
             </div>
+            <button class="hamburger" id="hamburger">
+                <i class="fa fa-bars"></i>
+            </button>
             <ul class="nav-links">
-                <li><a href="about.html">ABØUT</a></li>
+                <!-- <li><a href="about.html">ABØUT</a></li> -->
+                <li><a href="gallery.html">GALLERY</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#music">MUSIC</a></li>
+                <li><a href="contact.html">CØNTACT</a></li>
+            </ul>
+            <ul class="nav-links" id="nav-links-mobile">
+                <!-- <li><a href="about.html">ABØUT</a></li> -->
                 <li><a href="gallery.html">GALLERY</a></li>
                 <li><a href="#services">SERVICES</a></li>
                 <li><a href="#music">MUSIC</a></li>
@@ -67,15 +77,6 @@ $message_sent=false;
 
         <section id="home">
             <div class="test2-content-container">
-                <!-- <div class="container">
-                    <div class="button"><a href="contact.html">BØØK SESSIØN</a></div>
-                </div> -->
-                <!-- <div class="home-header-nathan-bankston">
-                    <h2>Nathan Bankston</h2>
-                </div>
-                <div class="home-header-producer-engineer">
-                    <h1>Producer/Audio Engineer</h1>
-                </div> -->
                 <div class="landing-page-content-container">
                     <div class="landing-page-content-container-header">
                         <h2>Book Your Session!</h2>
@@ -128,10 +129,8 @@ $message_sent=false;
                             <h1>Producer</h1>
                         </div>
                         <div class="slide-container-description">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
-                                libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
-                            </p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
+                            libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="producer-service">
@@ -143,10 +142,8 @@ $message_sent=false;
                             <h1>Mixing</h1>
                         </div>
                         <div class="slide-container-description">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
-                                libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
-                            </p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
+                            libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="mixing-service">
@@ -158,10 +155,8 @@ $message_sent=false;
                             <h1>SongWriting</h1>
                         </div>
                         <div class="slide-container-description">
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
-                                libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
-                            </p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla quisquam, saepe odio tempora laboriosam fugiat itaque, ex atque eum 
+                            libero quaerat harum reiciendis iure magnam? Aliquam nam molestias nesciunt
                         </div>
                         <div class="slide">
                             <div class="slide-img-container" id="songwriting-service">
@@ -173,59 +168,139 @@ $message_sent=false;
         </section>
 
         <section id="music">
-                <div class="home-header-nathan-bankston" id="about-header-about-nathan">
-                </div>
-                <div class="slider" id="slider-clients">
+            <div class="header-nathan-bankston">
+                <h1>Clients</h1>
+            </div>
+            <div class="slider" id="slider-clients">
+                <div class="artist-container">
                     <div class="artist" id="abi">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
                         <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
                     <div class="artist" id="azelia">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
                         <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
                     </div>
-                    <div class="artist" id="ridg">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="keltie">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="Kevin-Parker">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="Phantom-Professional">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 50px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="Nicole-Winters">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="abi">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="abi">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="abi">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="abi">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                    </div>
-                    <div class="artist" id="abi">
-                        <!-- <img src="img/abi.jpg" alt=""> -->
-                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM"  width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    <div class="artist-name">
+                        <h1>Azelia Banks</h1>
                     </div>
                 </div>
-
+                <div class="artist-container">
+                    <div class="artist" id="ridg">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Ridg Downs</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="azelia">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Azelia Banks</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="ridg">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Ridg Downs</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+                <div class="artist-container">
+                    <div class="artist" id="abi">
+                        <iframe src="https://open.spotify.com/embed/track/30Dx9VUM4oNgtR0EVpgVmM" style=" margin-top: 5px; border:solid white; border-width: .3mm;"width="100%" height="70" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                    </div>
+                    <div class="artist-name">
+                        <h1>Abi</h1>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- DONT DELETE THIS!  
